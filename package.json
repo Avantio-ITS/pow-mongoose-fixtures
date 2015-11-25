@@ -1,47 +1,38 @@
-
-{ 
+{
   "name": "pow-mongoose-fixtures",
   "description": "Fixture loading for Mongoose on NodeJS",
-  "maintainers":[
-    { 
-      "name": "Charles Davison",
-      "url": "https://github.com/powmedia"
-    }
-  ],
-  "contributors":[
-    {
-      "name": "Charles Davison",
-      "url": "https://github.com/powmedia"
-    },
-    {
-      "name": "Jacques-Olivier D. Bernier",
-      "url": "https://github.com/jackdbernier"
-    }
-  ],
+  "maintainers": [{
+    "name": "Charles Davison",
+    "url": "https://github.com/powmedia"
+  }],
+  "contributors": [{
+    "name": "Charles Davison",
+    "url": "https://github.com/powmedia"
+  }, {
+    "name": "Jacques-Olivier D. Bernier",
+    "url": "https://github.com/jackdbernier"
+  }],
   "version": "0.3.0",
   "repository": {
     "type": "git",
     "url": "http://github.com/powmedia/mongoose-fixtures.git"
   },
-  "bugs": { 
+  "bugs": {
     "url": "http://github.com/powmedia/mongoose-fixtures/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/powmedia/mongoose-fixtures/raw/master/LICENSE"
-    }
-  ],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/powmedia/mongoose-fixtures/raw/master/LICENSE"
+  }],
   "dependencies": {
-    "mongoose": "3.2.x",
-    "async": "0.1.x"
+    "mongoose": "4.2.x",
+    "async": "1.5.x"
   },
   "devDependencies": {
-    "mocha": "1.6.x",
-    "expect.js": "0.1.x",
-    "commons": "git://github.com/OpenifyIt/commons.git",
-    "coffee-script": "1.4.x",
-    "mongodb": "1.2.x"
+    "mocha": "2.3.x",
+    "expect.js": "0.3.x",
+    "coffee-script": "1.10.x",
+    "mongodb": "2.0.x"
   },
   "scripts": {
     "test": "make test"
