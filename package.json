@@ -37,8 +37,7 @@
   "scripts": {
     "test": "make test"
   },
-  "main": "mongoose_fixtures.js",
-  ,
+  "main": "mongoose_fixtures.js", 
   "publishConfig" : {
     "registry" : "https://nexus.avantio.int/repository/npm-private/"
   }
