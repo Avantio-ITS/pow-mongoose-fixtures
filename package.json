@@ -1,18 +1,23 @@
 {
   "name": "pow-mongoose-fixtures",
   "description": "Fixture loading for Mongoose on NodeJS",
-  "maintainers": [{
-    "name": "Charles Davison",
-    "url": "https://github.com/powmedia"
-  }],
-  "contributors": [{
-    "name": "Charles Davison",
-    "url": "https://github.com/powmedia"
-  }, {
-    "name": "Jacques-Olivier D. Bernier",
-    "url": "https://github.com/jackdbernier"
-  }],
-  "version": "0.3.1",
+  "maintainers": [
+    {
+      "name": "Charles Davison",
+      "url": "https://github.com/powmedia"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Charles Davison",
+      "url": "https://github.com/powmedia"
+    },
+    {
+      "name": "Jacques-Olivier D. Bernier",
+      "url": "https://github.com/jackdbernier"
+    }
+  ],
+  "version": "0.3.2",
   "repository": {
     "type": "git",
     "url": "http://github.com/powmedia/mongoose-fixtures.git"
@@ -20,10 +25,12 @@
   "bugs": {
     "url": "http://github.com/powmedia/mongoose-fixtures/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://github.com/powmedia/mongoose-fixtures/raw/master/LICENSE"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/powmedia/mongoose-fixtures/raw/master/LICENSE"
+    }
+  ],
   "dependencies": {
     "mongoose": "4.2.x",
     "async": "1.5.x"
@@ -37,8 +44,8 @@
   "scripts": {
     "test": "make test"
   },
-  "main": "mongoose_fixtures.js", 
-  "publishConfig" : {
-    "registry" : "https://nexus.avantio.int/repository/npm-private/"
+  "main": "mongoose_fixtures.js",
+  "publishConfig": {
+    "registry": "https://nexus.avantio.int/repository/npm-private/"
   }
 }
